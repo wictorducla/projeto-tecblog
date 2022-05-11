@@ -22,6 +22,38 @@ body {
     padding: 10px;
 }
 
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-postagens, #area-lateral {
+    background: orange;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#rodape {
+    clear: both;
+    background-color: #CCC;
+    text-align: center;
+    padding: 15px;
+}
+
 /* **FORMATAÇÃO DOS LINKS DO MENU** */
 
 a{
